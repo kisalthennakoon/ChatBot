@@ -1,6 +1,6 @@
 # Friendly Chatbot with Neural Network
 
-This project implements a friendly chatbot using a neural network and the bag-of-words method for pattern encoding. The chatbot is trained to recognize user intents and provide friendly responses based on the trained model. It includes a simple interface for easy interaction.
+This project implements a friendly chatbot using a neural network. The chatbot is trained to recognize user intents and provide friendly responses based on the trained model. It includes a simple interface for easy interaction.
 
 ## Table of Contents
 
