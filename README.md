@@ -6,6 +6,7 @@ This project implements a friendly chatbot using a neural network. The chatbot i
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [License](#license)
 
 ## Introduction
 
@@ -17,6 +18,8 @@ This project is a friendly chatbot implemented using a neural network and the ba
 - **Neural Network:** Utilizes a neural network for pattern recognition and response generation.
 - **Bag-of-Words Encoding:** Encodes input patterns using the bag-of-words method for training.
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
