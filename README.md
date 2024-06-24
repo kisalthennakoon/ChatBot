@@ -1,4 +1,4 @@
-# Friendly Chatbot with Neural Network
+# Friendly Chatbot using Neural Network
 
 This project implements a friendly chatbot using a neural network. The chatbot is trained to recognize user intents and provide friendly responses based on the trained model. It includes a simple interface for easy interaction.
 
@@ -22,12 +22,13 @@ To run this project, you need the following libraries:
 - nltk
 - numpy
 - random
+- string
 - tensorflow
-- Additionally, download the NLTK data:(nltk.download("punkt"),nltk.download("wordnet"))
+- Additionally, download the NLTK data : nltk.download("punkt"), nltk.download("wordnet")
 
 ## Usage
-1. Open the Jupyter Notebook in Weather Prediction file.
-2. Install all the requirements mentioned in under the requarements title
+1. Open the Jupyter Notebook in ChatBot file.
+2. Install all the libraries and download the data mentioned under the requirements title.
 3. Run all cells and from the final cell, chat with the bot.
    
 ## Features
