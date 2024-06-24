@@ -1,0 +1,248 @@
+{
+  "test_set": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey there!",
+        "Good evening",
+        "What's up?"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "I don't know what to say",
+        "This makes no sense",
+        "???"
+      ]
+    },
+    {
+      "tag": "job",
+      "patterns": [
+        "What do you do?",
+        "What kind of work do you do?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you exactly?",
+        "Can you tell me your birth year?"
+      ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "How's everything?",
+        "Are you feeling good today?"
+      ]
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "I'm doing great!",
+        "Feeling awesome!"
+      ]
+    },
+    {
+      "tag": "bad",
+      "patterns": [
+        "Not feeling well",
+        "I'm having a bad day"
+      ]
+    },
+    {
+      "tag": "actions",
+      "patterns": [
+        "What can you tell me?",
+        "What are your skills?",
+        "Can you assist me with something?"
+      ]
+    },
+    {
+      "tag": "women",
+      "patterns": [
+        "Are you a female assistant?",
+        "You are a lady, right?"
+      ]
+    },
+    {
+      "tag": "men",
+      "patterns": [
+        "Are you a male assistant?",
+        "You are a guy, right?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks a bunch",
+        "I appreciate it!",
+        "You're awesome, thanks!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "See you later!",
+        "Take care!",
+        "Bye for now"
+      ]
+    },
+    {
+      "tag": "city",
+      "patterns": [
+        "Where are you located?",
+        "What's your home city?"
+      ]
+    },
+    {
+      "tag": "action",
+      "patterns": [
+        "What are you up to?",
+        "What's going on?"
+      ]
+    },
+    {
+      "tag": "wait",
+      "patterns": [
+        "Hold on a minute",
+        "Please wait a moment"
+      ]
+    },
+    {
+      "tag": "still there",
+      "patterns": [
+        "Are you still with me?",
+        "You there?"
+      ]
+    },
+    {
+      "tag": "personal_info",
+      "patterns": [
+        "Tell me your name",
+        "What's your full name?",
+        "Who are you exactly?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather forecast?",
+        "Is it sunny today?",
+        "Any rain today?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need some help",
+        "Can you assist me?",
+        "What can you help me with?"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me something funny",
+        "Can you tell me a joke?",
+        "Do you know any jokes?"
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "What's new with you?",
+        "How's it going?",
+        "How's your day so far?"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're amazing!",
+        "I think you're great",
+        "You're fantastic!"
+      ]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": [
+        "Any good movies to watch?",
+        "What's a great movie?",
+        "Recommend a film"
+      ]
+    },
+    {
+      "tag": "music_recommendation",
+      "patterns": [
+        "Any music suggestions?",
+        "What's a good song?",
+        "Recommend me some music"
+      ]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": [
+        "Any book recommendations?",
+        "What's a good book to read?",
+        "Recommend a novel"
+      ]
+    },
+    {
+      "tag": "sports_news",
+      "patterns": [
+        "What's happening in sports?",
+        "Any sports news?",
+        "Update me on sports"
+      ]
+    },
+    {
+      "tag": "tech_news",
+      "patterns": [
+        "What's new in tech?",
+        "Any tech updates?",
+        "Tell me about technology news"
+      ]
+    },
+    {
+      "tag": "coding_help",
+      "patterns": [
+        "Can you help with programming?",
+        "I need help with coding",
+        "Assist me with coding"
+      ]
+    },
+    
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "Do you have any interests?",
+        "What do you do for fun?"
+      ]
+    },
+{
+      "tag": "favorite_color",
+      "patterns": [
+        "Do you have a favorite color?",
+        "What color do you like?"
+      ]
+    },
+    {
+      "tag": "like_pizza",
+      "patterns": [
+        "Do you enjoy pizza?",
+        "Is pizza your favorite?"
+      ]
+    },
+    {
+      "tag": "favorite_movie",
+      "patterns": [
+        "What's your favorite movie?",
+        "Do you have a top movie?"
+      ]
+    }
+
+  ]
+}

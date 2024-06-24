@@ -1,0 +1,461 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Hi there",
+        "Hey there",
+        "Yo"
+      ],
+      "responses": [
+        "Hey! How's it going?",
+        "Hello! What's up?",
+        "Hi there! How can I help?",
+        "Hi! How's your day?",
+        "Hello! What's new?"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "job",
+      "patterns": [
+        "What is your job",
+        "What is your work"
+      ],
+      "responses": [
+        "My job is to make you feel like everything is okay.",
+        "I work to serve you as well as possible"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "What is your age",
+        "How old are you",
+        "When were you born"
+      ],
+      "responses": [
+        "I was born in 2021"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "How are you today",
+        "How are you"
+      ],
+      "responses": [
+        "I am feeling good, you?",
+        "Very good and you?",
+        "Actually, I'm okay and you?"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "I am good too",
+        "I feel fine",
+        "Good !",
+        "Fine",
+        "I am good",
+        "I am great",
+        "great"
+      ],
+      "responses": [
+        "That is perfect!",
+        "So, everything's okay!"
+      ],
+      "context": "feeling"
+    },
+    {
+      "tag": "bad",
+      "patterns": [
+        "I am feeling bad",
+        "No I am sad",
+        "No"
+      ],
+      "responses": [
+        "I hope you will feel better !"
+      ],
+      "context": "feeling"
+    },
+    {
+      "tag": "actions",
+      "patterns": [
+        "What can you do",
+        "What can I ask you",
+        "Can you help me"
+      ],
+      "responses": [
+        "I can do a lot of things but here are some of my skills, you can ask me: the capital of a country, its currency and its area. A random number. To calculate a math operation."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "women",
+      "patterns": [
+        "Are you a girl",
+        "You are a women"
+      ],
+      "responses": [
+        "Sure, I am a women"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "men",
+      "patterns": [
+        "Are you a men",
+        "Are you a boy"
+      ],
+      "responses": [
+        "No, I am a women"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thank you very much",
+        "thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thanks",
+        "Much appreciated",
+        "You're the best"
+      ],
+      "responses": [
+        "I only do my job\ufe0f",
+        "No problem!",
+        "No worries!",
+        "Happy to help!",
+        "Anytime!",
+        "You're welcome!",
+        "Glad I could help!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Good afternoon",
+        "Bye",
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Catch you later",
+        "Peace out"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Bye! Have an awesome day!",
+        "See you later, alligator!",
+        "Take care! Talk soon.",
+        "Catch you later!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "city",
+      "patterns": [
+        "Where do you live"
+      ],
+      "responses": [
+        "I live in a server located in the US!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "action",
+      "patterns": [
+        "What are you doing"
+      ],
+      "responses": [
+        "Actually, I'm chatting with somebody"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "wait",
+      "patterns": [
+        "Can you wait 2 minutes",
+        "Please wait",
+        "Wait 2 secs please"
+      ],
+      "responses": [
+        "Sure! I wait."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "still_there",
+      "patterns": [
+        "Are you still there?",
+        "Are you here?"
+      ],
+      "responses": [
+        "Of course! Always at your service."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "personal_info",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you created?",
+        "What's your name?",
+        "Do you have a name?",
+        "Who are you?"
+      ],
+      "responses": [
+        "I'm ChatBot, your friendly virtual assistant!",
+        "I don't have an age, but I'm here to help you!",
+        "You can call me ChatBot!",
+        "I'm ChatBot, nice to meet you!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?",
+        "Tell me about the weather",
+        "Is it going to rain?",
+        "How's the weather?"
+      ],
+      "responses": [
+        "I can't check the weather, but you can try a weather app!",
+        "Not sure, but you can check online!",
+        "Weather is always a surprise!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me with something",
+        "What can you do?",
+        "What are your features?",
+        "Tell me about your capabilities"
+      ],
+      "responses": [
+        "I'm here to chat and help with whatever you need!",
+        "I can answer questions, tell jokes, and more. Just ask!",
+        "What do you need help with? I'm here for you!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Can you make me laugh?",
+        "Share a funny story",
+        "Got any jokes?"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Want to hear a construction joke? Oh, never mind, I'm still working on it."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How are you?",
+        "How's it going?",
+        "What's up?",
+        "How's your day?",
+        "How are things?",
+        "How's life?",
+        "How's everything?"
+      ],
+      "responses": [
+        "I'm doing great! How about you?",
+        "All good here! What about you?",
+        "Just chilling! How's your day going?",
+        "Life's good! How's everything with you?"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome",
+        "You're the best",
+        "I like you",
+        "You're cool",
+        "Thanks for being awesome"
+      ],
+      "responses": [
+        "You're too kind!",
+        "Thanks! You're awesome too!",
+        "I like you too!",
+        "You rock!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": [
+        "Recommend a movie",
+        "What's a good movie to watch?",
+        "Any movie suggestions?",
+        "What should I watch?"
+      ],
+      "responses": [
+        "Depends on what you like! Have you seen any good comedies lately?",
+        "How about a classic? You can't go wrong with something like 'The Shawshank Redemption'!",
+        "In the mood for action? 'Mad Max: Fury Road' is a wild ride!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "music_recommendation",
+      "patterns": [
+        "Recommend some music",
+        "What's a good song to listen to?",
+        "Any music suggestions?",
+        "What should I listen to?"
+      ],
+      "responses": [
+        "What genre do you like? I'm a fan of all kinds!",
+        "How about some chill vibes with lo-fi beats?",
+        "In the mood for something upbeat? Try some pop hits!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": [
+        "Recommend a book",
+        "What's a good book to read?",
+        "Any book suggestions?",
+        "What should I read?"
+      ],
+      "responses": [
+        "If you like thrillers, 'Gone Girl' is a great choice!",
+        "For some fantasy, you can't go wrong with 'Harry Potter'!",
+        "In the mood for non-fiction? 'Sapiens' is really interesting!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "sports_news",
+      "patterns": [
+        "Tell me about sports news",
+        "What's happening in the sports world?",
+        "Any sports updates?",
+        "What's new in sports?"
+      ],
+      "responses": [
+        "There's always something happening in sports! Check out the latest news online.",
+        "You can get the latest updates on sports news websites.",
+        "I'm not a sports expert, but I can help you find the news!"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "tech_news",
+      "patterns": [
+        "What's new in technology?",
+        "Tell me about tech trends",
+        "Any tech updates?",
+        "What's happening in tech?"
+      ],
+      "responses": [
+        "Tech is always evolving! Have you checked out the latest gadgets?",
+        "You can stay updated with tech blogs and news sites.",
+        "So many cool innovations happening! What are you interested in?"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "coding_help",
+      "patterns": [
+        "Can you help me with coding?",
+        "I need coding assistance",
+        "Programming help",
+        "How do I code this?"
+      ],
+      "responses": [
+        "Sure, I can help with coding! What language are you using?",
+        "Need help with a specific coding problem? I'm here for you!",
+        "Let's tackle that coding challenge together!"
+      ],
+      "context": ""
+     },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What do you like to do for fun?",
+        "Any hobbies?",
+        "What are your interests?",
+        "Do you have any hobbies?"
+      ],
+      "responses": [
+        "I love chatting with you and learning new things!",
+        "My hobby is helping people out with their questions.",
+        "I enjoy making people smile with my jokes and stories!"
+      ],
+      "context": ""
+    },
+{
+  "tag": "favorite_color",
+  "patterns": [
+    "What's your favorite color?"
+  ],
+  "responses": [
+    "I love all colors equally!"
+  ],
+  "context": ""
+},
+{
+  "tag": "like_pizza",
+  "patterns": [
+    "Do you like pizza?"
+  ],
+  "responses": [
+    "Pizza is awesome! What's your favorite topping?"
+  ],
+  "context": ""
+},
+{
+  "tag": "favorite_movie",
+  "patterns": [
+    "Do you have a favorite movie?"
+  ],
+  "responses": [
+    "I don't watch movies, but I've heard 'Inception' is a mind-bender!"
+  ],
+  "context": ""
+}
+
+]}
+   
