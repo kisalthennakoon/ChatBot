@@ -6,12 +6,30 @@ This project implements a friendly chatbot using a neural network. The chatbot i
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
 - [License](#license)
 
 ## Introduction
 
 This project is a friendly chatbot implemented using a neural network and the bag-of-words method for pattern encoding. The chatbot is trained to recognize user intents and provide friendly responses based on the trained model. It includes a simple interface for easy interaction.
 
+## Requirements
+
+To run this project, you need the following libraries:
+
+- json
+- nltk
+- numpy
+- random
+- tensorflow
+- Additionally, download the NLTK data:(nltk.download("punkt"),nltk.download("wordnet"))
+
+## Usage
+1. Open the Jupyter Notebook in Weather Prediction file.
+2. Install all the requirements mentioned in under the requarements title
+3. Run all cells and from the final cell, chat with the bot.
+   
 ## Features
 
 - **Friendly Chatbot:** Provides friendly responses to user queries.
